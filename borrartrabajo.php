@@ -6,7 +6,7 @@
     ?>
 
     <body>
-        <h1>Borrar Trabajo:</h1>
+        <h1>Borrar trabajo con id:</h1>
 
         <?php
             if (isset($_GET['id_trabajo']) && !empty($_GET['id_trabajo'])) {
